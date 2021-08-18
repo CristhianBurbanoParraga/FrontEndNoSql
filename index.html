@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd NoSql Main</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1>GESTI&Oacute;N VENTA DE CORVICHES</h1>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <h3>Iniciar Sesi&oacute;n</h3>
+                <input type="text" class="form-control mb-3" id="user" name="user" placeholder="Usuario">
+                <input type="password" class="form-control mb-3" id="password" name="password" placeholder="Clave">
+                <button type="button" id="access" class="btn btn-primary">Acceder</button>
+                <button type="button" id="registry" class="btn btn-link">Registrase</button>
+            </div>
+            <div class="col-md-8">
+                <h3>Vendedores Registrados</h3>
+                <table class="table">
+                    <thead class="table-success table-striped">
+                        <tr>
+                            <th>Id</th>
+                            <th>Usuario</th>
+                            <th>Vendedor</th>
+                            <th>Foto</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/master.js" type="text/javascript"></script>
+</body>
+
+</html>
